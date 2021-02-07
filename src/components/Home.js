@@ -1,19 +1,11 @@
+
 import React from 'react'
 import { Link } from 'gatsby'
-import { getCurrentUser } from '../utils/auth'
 
-const Home = () => {
-  const user = getCurrentUser()
-  console.log('user:', user)
-  return (
-    <div>
-      <h1>Profile Details</h1>
-      <p>Email: {user.email}</p>
-      <p>Phone: {user.phone_number}</p>
-      <p>Username: {user.username}</p>
-      <Link to="/app/home">Home</Link>
-    </div>
-  )
-}
+const Home = () => <div>
+  <h1>Home</h1>
+  <p>You are now logged in! <Link to="/app/profile">View profile</Link></p>
+  <p>Now go build something great and deploy it using the <a href="https://console.amplify.aws">AWS Amplify Console</a></p>
+</div>
 
 export default Home

@@ -1,10 +1,10 @@
 import React from "react"
-import { navigate } from "@reach/router"
+import { navigate } from "gatsby"
 import { isLoggedIn } from "../utils/auth"
 
 const PrivateRoute = ({ component: Component, location, ...rest }) => {
   if (!isLoggedIn()) {
-    navigate(`/app/login`)
+    navigate(`/auth/`)
     return null
   }
 
