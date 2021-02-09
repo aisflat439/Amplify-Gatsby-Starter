@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Amplify from 'aws-amplify'
@@ -9,7 +8,7 @@ import config from '../aws-exports'
 Amplify.configure(config)
 
 const IndexPage = () => (
-  <Layout>
+  <>
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -19,7 +18,7 @@ const IndexPage = () => (
     <Link to="/app/home">Sign In</Link><br />
     <Link to="/app/home">Home</Link><br />
     <Link to="/app/profile">Your profile</Link>
-  </Layout>
+  </>
 )
 
 export default IndexPage

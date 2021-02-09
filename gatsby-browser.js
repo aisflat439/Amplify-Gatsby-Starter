@@ -5,6 +5,8 @@
  */
 
 // You can delete this file if you're not using it
+import React from 'react';
+import Layout from './src/components/layout';
 import { Auth } from '@aws-amplify/auth'
 import { setUser } from './src/utils/auth'
 
@@ -20,4 +22,8 @@ export const onRouteUpdate = (state, page, pages) => {
     .catch(err => {
       window.localStorage.setItem('gatsbyUser', null)
     })
+}
+
+export function wrapPageElement({ element, props }) {
+  return <Layout {...props}>{element}</Layout>;
 }
