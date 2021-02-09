@@ -5,12 +5,10 @@ import Layout from '../components/layout'
 
 const Auth = () => (
   <Layout>
-    <div>
-      <AmplifyAuthenticator>
-        <h1>auth</h1>
-        <AmplifySignOut />
-      </AmplifyAuthenticator>
-    </div>
+    <AmplifyAuthenticator>
+      <h1>auth</h1>
+      <AmplifySignOut />
+    </AmplifyAuthenticator>
   </Layout>
 )
 export default Auth
