@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-openqualification-dev-121636-authRole",
+      "UnauthRoleArn": "arn:aws:iam::560195320067:role/amplify-openqualification-dev-121636-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::560195320067:role/amplify-openqualification-dev-121636-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-openqualification-dev-121636-deployment",
+      "UnauthRoleName": "amplify-openqualification-dev-121636-unauthRole",
+      "StackName": "amplify-openqualification-dev-121636",
+      "StackId": "arn:aws:cloudformation:us-east-1:560195320067:stack/amplify-openqualification-dev-121636/00bf1360-6e30-11eb-80e3-0ab512dce13f",
+      "AmplifyAppId": "ddratem83etr0"
+    },
+    "categories": {
+      "auth": {
+        "openqualificationd1b00df4": {}
+      }
+    }
+  }
+}
