@@ -2,7 +2,13 @@
 
 ### Requirements
 - You must have Amplify CLI configured
+
+### Wiki
+
+Covers my notes for working with this here or:
 ### Installation and setup
+
+Clone the repo down
 
 ```sh
 amplify init
@@ -13,8 +19,7 @@ amplify init
 ? Enter a name for the project AmplifyGatsbyStarter
 ? Enter a name for the environment dev
 ? Choose your default editor: Visual Studio Code
-? Choose the type of app that you're building javascrip
-t
+? Choose the type of app that you're building javascript
 Please tell us about your project
 ? What javascript framework are you using react
 ? Source Directory Path:  src
@@ -32,8 +37,9 @@ https://docs.aws.amazon.com/cli/latest/userguide/cli-multiple-profiles.html
 
 > then we do
 ```sh
- Do you want to use the default authentication and secu
-rity configuration? Default configuration
+amplify add auth
+
+ Do you want to use the default authentication and security configuration? Default configuration
  How do you want users to be able to sign in? Username
  Do you want to configure advanced settings? No, I am done.
 ```
