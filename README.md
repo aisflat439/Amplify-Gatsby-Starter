@@ -5,7 +5,7 @@
 
 ### Wiki
 
-Covers my notes for working with this here or:
+Covers my notes for working with this [here](https://github.com/aisflat439/Amplify-Gatsby-Starter/wiki) or:
 ### Installation and setup
 
 Clone the repo down
