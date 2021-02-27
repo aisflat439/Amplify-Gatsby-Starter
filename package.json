@@ -6,6 +6,8 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.37",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
     "aws-amplify": "^3.3.17",
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby": "^2.31.1",
@@ -16,14 +18,20 @@
     "gatsby-plugin-sharp": "^2.13.2",
     "gatsby-plugin-styled-components": "^3.10.0",
     "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-source-graphql": "^2.14.0",
     "gatsby-transformer-sharp": "^2.11.0",
+    "jest": "^26.6.3",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
+    "react-test-renderer": "^17.0.1",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "babel-jest": "^26.6.3",
+    "babel-preset-gatsby": "^0.12.2",
+    "identity-obj-proxy": "^3.0.0",
     "prettier": "2.2.1"
   },
   "keywords": [

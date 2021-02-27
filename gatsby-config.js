@@ -17,6 +17,17 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: "YourTypeName",
+        fieldName: "yourField",
+        url: "aws-exports.js, the aws_appsync_graphqlEndpoint value",
+        headers: {
+          'x-api-key': "aws-exports.js, the aws_appsync_apiKey value"
+        }
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
