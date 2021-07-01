@@ -48,3 +48,10 @@ amplify add auth
 ```sh
  amplify push
 ```
+> next up
+```sh
+| Category | Resource name             | Operation | Provider plugin   |
+| -------- | ------------------------- | --------- | ----------------- |
+| Auth     | amplifygatsbystartersbf9eeda1 | Create    | awscloudformation |
+? Are you sure you want to continue? Yes
+```
